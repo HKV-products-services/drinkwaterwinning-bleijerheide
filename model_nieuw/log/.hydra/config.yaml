@@ -1,4 +1,4 @@
-experiment_name: test_1
+experiment_name: test_new_n
 sleutelfactoren:
 - Q_verhard
 - Q_dak
@@ -7,6 +7,6 @@ save_dir: ${project_dir}/experiments
 model_dir: ${save_dir}/${experiment_name}
 log_dir: ${save_dir}/${experiment_name}/log
 n_trials: 50
-epochs: 100
+epochs: 1000
 pruning: true
 load_if_exists: false
